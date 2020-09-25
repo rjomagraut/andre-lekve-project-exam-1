@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Microsite" />
+    <meta name="keywords" content="microsite, space" />
+    <meta name="author" content="Andre Lekve" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="../css/styles.css" />
+    <link rel="stylesheet" type="text/css" href="../css/rover.css" />
+    <link rel="stylesheet" type="text/css" href="../css/pagination.css" />
+    <title>Microsite</title>
+  </head>
+  <body id="body">
+    <header id="header" class="site-header">
+      <a class="logo-home-button" href="../index.html" rel="home">
+        <img id="logo" src="../images/logo-desktop.jpg" alt="logo"
+      /></a>
+      <div id="desktop" class="side-column">
+        <nav class="site-nav">
+          <div class="menu-nav">
+            <ul id="menu">
+              <li class="menu-pages">
+                <a class="menu-button" href="../index.html">HOME</a>
+              </li>
+              <li class="menu-pages">
+                <a class="menu-button" href="../gallery.html">GALLERY</a>
+              </li>
+              <li class="menu-pages">
+                <a class="menu-button" href="../news.html">NEWS</a>
+              </li>
+              <li class="menu-pages">
+                <a class="menu-button" href="../about.html">ABOUT</a>
+              </li>
+              <li class="menu-pages">
+                <a class="menu-button" href="../contact.html">CONTACT</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <div id="mobil" class="mobil-nav">
+        <a href="../index.html" class="mobil-logo"></a>
+        <div id="mobil-menu">
+          <a class="mobil-button" href="../index.html">HOME</a>
+          <a class="mobil-button" href="../gallery.html">GALLERY</a>
+          <a class="mobil-button" href="../news.html">NEWS</a>
+          <a class="mobil-button" href="../about.html">ABOUT</a>
+          <a class="mobil-button" href="../contact.html">CONTACT</a>
+        </div>
+        <a class="nav-icon" onclick="mobilMenu()"> ☰ </a>
+      </div>
+      <script src="../js/mobil.js"></script>
+    </header>
+    <div id="padding-top" class="site-main">
+      <div class="side-column">
+        <div class="rover-content">
+          <main id="main">
+            <h2 class="rover-name">Rover: Curiosity</h2>
+            <h3 class="rover-camera">Images are taken from these cameras:</h3>
+            <p>
+              Front Hazard Avoidance Camera, Rear Hazard Avoidance Camera, Mast
+              Camera and Chemistry and Camera Complex, Mars Hand Lens Imager,
+              Mars Descent Imager & Navigation Camera.
+            </p>
+            <p class="rover-launch">Launch date: 2011-11-26</p>
+            <p class="rover-landing">Landing date: 2012-08-06</p>
+            <p class="rover-status">Status: Active</p>
+            <div class="images">
+              <script src="../js/curiosity/page2.js"></script>
+            </div>
+            <div id="curiosity-pages">
+              <div class="pages" id="pagination">
+                <a href="../curiosity.html" class="page-back"></a>
+                <a href="../curiosity.html">1</a>
+                <a class="button" href="page2.html">2</a>
+                <a href="page3.html">3</a>
+                <a href="page4.html">4</a>
+                <a href="page5.html">5</a>
+                <a href="page10.html">...</a>
+                <a href="page35.html">35</a>
+                <a href="page3.html" class="page-forward"></a>
+              </div>
+            </div>
+          </main>
+        </div>
+      </div>
+    </div>
+    <footer id="footer" class="site-footer">
+      <div class="footer-info">© <span>Lekve Microsite 2020</span></div>
+    </footer>
+  </body>
+</html>

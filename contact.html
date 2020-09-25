@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Microsite" />
+    <meta name="keywords" content="microsite, space" />
+    <meta name="author" content="Andre Lekve" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <link rel="stylesheet" type="text/css" href="css/contact.css" />
+    <title>Microsite</title>
+  </head>
+  <body id="body">
+    <header id="header" class="site-header">
+      <a class="logo-home-button" href="index.html" rel="home">
+        <img id="logo" src="images/logo-desktop.jpg" alt="logo"
+      /></a>
+      <div id="desktop" class="side-column">
+        <nav class="site-nav">
+          <div class="menu-nav">
+            <ul id="menu">
+              <li class="menu-pages">
+                <a class="menu-button" href="index.html">HOME</a>
+              </li>
+              <li class="menu-pages">
+                <a class="menu-button" href="gallery.html">GALLERY</a>
+              </li>
+              <li class="menu-pages">
+                <a class="menu-button" href="news.html">NEWS</a>
+              </li>
+              <li class="menu-pages">
+                <a class="menu-button" href="about.html">ABOUT</a>
+              </li>
+              <li class="menu-pages">
+                <a class="menu-button" href="contact.html">CONTACT</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <div id="mobil" class="mobil-nav">
+        <a href="index.html" class="mobil-logo"></a>
+        <div id="mobil-menu">
+          <a class="mobil-button" href="index.html">HOME</a>
+          <a class="mobil-button" href="gallery.html">GALLERY</a>
+          <a class="mobil-button" href="news.html">NEWS</a>
+          <a class="mobil-button" href="about.html">ABOUT</a>
+          <a class="mobil-button" href="contact.html">CONTACT</a>
+        </div>
+        <a class="nav-icon" onclick="mobilMenu()"> ☰ </a>
+      </div>
+      <script src="js/mobil.js"></script>
+    </header>
+    <div id="padding-top" class="site-main">
+      <div class="side-column">
+        <div class="form-content">
+          <main class="main">
+            <div class="centertext">
+              <div class="contactinfo">
+                <h1>CONTACT</h1>
+              </div>
+            </div>
+            <div class="formpage">
+              <form id="contactForm">
+                <div class="formgroup">
+                  <input
+                    class="formcontrol"
+                    name="name"
+                    id="name"
+                    placeholder="Name..."
+                  />
+                  <div class="formerror" id="nameError">
+                    Please enter your name
+                  </div>
+                </div>
+                <div class="formgroup">
+                  <input
+                    class="formcontrol"
+                    name="address"
+                    id="address"
+                    placeholder="Address..."
+                  />
+                  <div class="formerror" id="addressError">
+                    You need to enter a valid address.
+                  </div>
+                </div>
+                <div class="formgroup">
+                  <input
+                    class="formcontrol"
+                    name="postalcode"
+                    id="postalcode"
+                    placeholder="Postal code...(e.g 0001, Oslo)"
+                  />
+                  <div class="formerror" id="postalcodeError">
+                    You need to enter a valid postal code.
+                  </div>
+                </div>
+                <div class="formgroup">
+                  <input
+                    class="formcontrol"
+                    name="email"
+                    id="email"
+                    placeholder="Email..."
+                  />
+                  <div class="formerror" id="emailError">
+                    Please enter your email address
+                  </div>
+                  <div class="formerror" id="invalidEmailError">
+                    Please enter a valid email address
+                  </div>
+                </div>
+                <div class="formgroup">
+                  <textarea
+                    class="formcontrol"
+                    name="question"
+                    id="question"
+                    placeholder="Question here..."
+                  ></textarea>
+                  <div class="formerror" id="questionError">
+                    There needs to be a question.
+                  </div>
+                </div>
+                <button type="submit" class="submitbtn" id="submit">
+                  Send
+                </button>
+              </form>
+            </div>
+            <script src="js/contact.js"></script>
+          </main>
+        </div>
+      </div>
+    </div>
+    <footer id="footer" class="site-footer">
+      <div class="footer-info">© <span>Lekve Microsite 2020</span></div>
+    </footer>
+  </body>
+</html>

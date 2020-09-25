@@ -1,0 +1,131 @@
+@media only screen and (min-width: 769px) {
+  * {
+    box-sizing: border-box;
+  }
+  .rover-launch {
+    text-align: center;
+    font-family: 'telegramarender', Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    margin-top: 10px;
+  }
+  .rover-landing {
+    text-align: center;
+    font-family: 'telegramarender', Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    margin: 10px;
+  }
+  .rover-status {
+    text-align: center;
+    font-family: 'telegramarender', Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    margin-bottom: 10px;
+  }
+  p {
+    text-align: center;
+  }
+  div.rover-gallery .rover-image {
+    width: 100%;
+    max-height: 100px;
+    height: auto;
+  }
+  .rover-image:hover {
+    opacity: 0.6;
+  }
+  .gallery {
+    padding: 0 6px;
+    float: left;
+    width: 32.99999%;
+  }
+  h2 {
+    padding-top: 30px;
+    border-top: rgb(141, 78, 73) solid;
+  }
+}
+/* ------------------------------------------------------------------------------ */
+@media only screen and (min-width: 320px) and (max-width: 451px) {
+  h2,
+  h3 {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: left;
+  }
+  p {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: left;
+  }
+  .rover-launch {
+    font-family: 'telegramarender', Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  .rover-landing {
+    font-family: 'telegramarender', Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    margin: 10px;
+  }
+  .rover-status {
+    font-family: 'telegramarender', Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+  div.rover-gallery .rover-image {
+    width: 100%;
+    max-height: 65px;
+    height: auto;
+  }
+  .rover-image:hover {
+    opacity: 0.6;
+  }
+  .gallery {
+    padding: 0 6px;
+    float: left;
+    width: 45.99999%;
+  }
+}
+/* ------------------------------------------------------------------------------ */
+@media only screen and (min-width: 452px) and (max-width: 768px) {
+  h2,
+  h3 {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: left;
+  }
+  p {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: left;
+  }
+  .rover-launch {
+    font-family: 'telegramarender', Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  .rover-landing {
+    font-family: 'telegramarender', Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    margin: 10px;
+  }
+  .rover-status {
+    font-family: 'telegramarender', Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+  div.rover-gallery .rover-image {
+    width: 100%;
+    max-height: 100px;
+    height: auto;
+  }
+  .rover-image:hover {
+    opacity: 0.6;
+  }
+  .gallery {
+    padding: 0 6px;
+    float: left;
+    width: 46.99999%;
+  }
+}

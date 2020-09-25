@@ -1,0 +1,119 @@
+@media only screen and (min-width: 769px) {
+  .daily-title {
+    text-align: center;
+    font-family: 'telegramarender', Arial, Helvetica, sans-serif;
+  }
+  .daily-explanation {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  .daily-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+  }
+  .daily-image:hover {
+    opacity: 0.6;
+  }
+  .daily-copyright {
+    text-align: center;
+    font-family: 'telegramarender', Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    margin-top: 10px;
+  }
+  .daily-date {
+    text-align: center;
+    font-family: 'telegramarender', Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    margin-bottom: 10px;
+  }
+  p {
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: left;
+  }
+  .center-text {
+    text-align: center;
+  }
+}
+/* ------------------------------------------------------------------------------ */
+@media only screen and (min-width: 320px) and (max-width: 451px) {
+  .daily-title {
+    text-align: center;
+    font-family: 'telegramarender', Arial, Helvetica, sans-serif;
+  }
+  .daily-explanation {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  .daily-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+  }
+  .daily-image:hover {
+    opacity: 0.6;
+  }
+  .daily-copyright {
+    text-align: center;
+    font-family: 'telegramarender', Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    margin-top: 10px;
+  }
+  .daily-date {
+    text-align: center;
+    font-family: 'telegramarender', Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    margin-bottom: 10px;
+  }
+  p {
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: left;
+  }
+}
+/* ------------------------------------------------------------------------------ */
+@media only screen and (min-width: 452px) and (max-width: 768px) {
+  .daily-title {
+    text-align: center;
+    font-family: 'telegramarender', Arial, Helvetica, sans-serif;
+  }
+  .daily-explanation {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  .daily-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+  }
+  .daily-image:hover {
+    opacity: 0.6;
+  }
+  .daily-copyright {
+    text-align: center;
+    font-family: 'telegramarender', Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    margin-top: 10px;
+  }
+  .daily-date {
+    text-align: center;
+    font-family: 'telegramarender', Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    margin-bottom: 10px;
+  }
+  p {
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: left;
+  }
+}

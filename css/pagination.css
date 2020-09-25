@@ -1,0 +1,125 @@
+/* ------------------------------------------------------------------------------ */
+@media only screen and (min-width: 769px) {
+  #curiosity-pages {
+    padding-top: 30px;
+    display: block;
+    clear: both;
+    width: 100%;
+    text-align: center;
+  }
+  .pages {
+    display: inline-block;
+    font-family: 'telegramaraw', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+  }
+  .pages a {
+    color: #000000;
+    float: left;
+    padding: 6px 14px;
+    text-decoration: none;
+  }
+
+  .pages a.button {
+    background-color: rgb(141, 78, 73);
+    color: #ffffff;
+  }
+
+  .pages a:hover:not(.button) {
+    background-color: #606067;
+    color: #ffffff;
+  }
+
+  .page-back:after {
+    content: ' \00AB';
+    font-family: 'telegramarender', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+  }
+  .page-forward:after {
+    font-family: 'telegramarender', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    content: ' \00BB';
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 451px) {
+  #curiosity-pages {
+    padding-top: 30px;
+    display: block;
+    clear: both;
+    width: 100%;
+    text-align: center;
+  }
+  .pages {
+    display: inline-block;
+    font-family: 'telegramaraw', Arial, Helvetica, sans-serif;
+    font-size: 12px;
+  }
+  .pages a {
+    color: #000000;
+    float: left;
+    padding: 6px 14px;
+    text-decoration: none;
+  }
+
+  .pages a.button {
+    background-color: rgb(141, 78, 73);
+    color: #ffffff;
+  }
+
+  .pages a:hover:not(.button) {
+    background-color: #606067;
+    color: #ffffff;
+  }
+
+  .page-back:after {
+    content: ' \00AB';
+    font-family: 'telegramarender', Arial, Helvetica, sans-serif;
+    font-size: 12px;
+  }
+  .page-forward:after {
+    font-family: 'telegramarender', Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    content: ' \00BB';
+  }
+}
+/* ------------------------------------------------------------------------------ */
+@media only screen and (min-width: 452px) and (max-width: 768px) {
+  #curiosity-pages {
+    padding-top: 30px;
+    display: block;
+    clear: both;
+    width: 100%;
+    text-align: center;
+  }
+  .pages {
+    display: inline-block;
+    font-family: 'telegramaraw', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+  }
+  .pages a {
+    color: #000000;
+    float: left;
+    padding: 6px 14px;
+    text-decoration: none;
+  }
+
+  .pages a.button {
+    background-color: rgb(141, 78, 73);
+    color: #ffffff;
+  }
+
+  .pages a:hover:not(.button) {
+    background-color: #606067;
+    color: #ffffff;
+  }
+
+  .page-back:after {
+    content: ' \00AB';
+    font-family: 'telegramarender', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+  }
+  .page-forward:after {
+    font-family: 'telegramarender', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    content: ' \00BB';
+  }
+}

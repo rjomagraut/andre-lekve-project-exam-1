@@ -1,0 +1,209 @@
+@font-face {
+  font-family: 'telegramaraw';
+  src: url('../fonts/telegrama_raw-webfont.woff2') format('woff2'),
+    url('../fonts/telegrama_raw-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'telegramaraw_osn';
+  src: url('../fonts/telegrama_raw_osn-webfont.woff2') format('woff2'),
+    url('../fonts/telegrama_raw_osn-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'telegramarender';
+  src: url('../fonts/telegrama_render-webfont.woff2') format('woff2'),
+    url('../fonts/telegrama_render-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'telegramarender_osn';
+  src: url('../fonts/telegrama_render_osn-webfont.woff2') format('woff2'),
+    url('../fonts/telegrama_render_osn-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+/* ------------------------------------------------------------------------------ */
+@media only screen and (min-width: 769px) {
+  .contact-text {
+    text-align: center;
+  }
+  .formpage {
+    background-image: url('../images/stars.jpg');
+    opacity: 0.8;
+    display: block;
+    margin: 0 auto;
+    padding: 50px;
+    min-height: 500px;
+  }
+  #contactForm {
+    margin: 0 auto;
+    padding: 20px;
+
+    overflow: hidden;
+  }
+  .formerror {
+    color: red;
+    font-family: 'telegramarender', sans-serif, Verdana;
+    font-size: 14px;
+    margin-top: 3px;
+    display: none;
+  }
+  .formcontrol,
+  input[type='text'] {
+    width: 100%;
+    padding: 12px 20px;
+    background-color: #606067;
+    margin: 8px 0;
+    border: none;
+    box-sizing: border-box;
+  }
+  .formcontrol::placeholder {
+    font-family: 'telegramaraw', sans-serif, Verdana;
+    font-size: 14px;
+    color: #ffffff;
+  }
+  .submitbtn,
+  input[type='submit'] {
+    float: right;
+    color: #ffffff;
+    background-color: #606067;
+    padding: 10px 15px;
+    margin: 8px 0;
+    border: none;
+    transition: 0.3s;
+    cursor: pointer;
+    font-family: 'telegramarender', sans-serif, Verdana;
+    font-size: 16px;
+  }
+  .submitbtn:hover {
+    background-color: #000000;
+    font-family: 'telegramarender', sans-serif, Verdana;
+    font-size: 16px;
+    transition: 0.3s;
+  }
+  .submitbtn:active {
+    background-color: rgb(141, 78, 73);
+    border: none;
+    transition: 0.3s;
+  }
+}
+/* ------------------------------------------------------------------------------ */
+@media only screen and (min-width: 320px) and (max-width: 451px) {
+  .contact-text {
+    text-align: left;
+  }
+  .formpage {
+    background-image: url('../images/stars.jpg');
+    opacity: 0.8;
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    min-height: 400px;
+  }
+  #contactForm {
+    margin: 0 auto;
+    padding: 20px;
+
+    overflow: hidden;
+  }
+  .formerror {
+    color: red;
+    font-family: 'telegramarender', sans-serif, Verdana;
+    font-size: 11px;
+    margin-top: 3px;
+    display: none;
+  }
+  .formcontrol,
+  input[type='text'] {
+    width: 100%;
+    padding: 15px;
+    background-color: #606067;
+    margin: 8px 0;
+    border: none;
+    box-sizing: border-box;
+  }
+  .formcontrol::placeholder {
+    font-family: 'telegramaraw', sans-serif, Verdana;
+    font-size: 13px;
+    color: #ffffff;
+  }
+  .submitbtn,
+  input[type='submit'] {
+    float: right;
+    color: #ffffff;
+    background-color: #606067;
+    padding: 10px 15px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    font-family: 'telegramarender', sans-serif, Verdana;
+    font-size: 16px;
+  }
+  .submitbtn:hover {
+    background-color: #000000;
+    font-family: 'telegramarender', sans-serif, Verdana;
+    font-size: 16px;
+  }
+}
+/* ------------------------------------------------------------------------------ */
+@media only screen and (min-width: 452px) and (max-width: 768px) {
+  .contact-text {
+    text-align: left;
+  }
+  .formpage {
+    background-image: url('../images/stars.jpg');
+    opacity: 0.8;
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    min-height: 400px;
+  }
+  #contactForm {
+    margin: 0 auto;
+    padding: 20px;
+
+    overflow: hidden;
+  }
+  .formerror {
+    color: red;
+    font-family: 'telegramarender', sans-serif, Verdana;
+    font-size: 11px;
+    margin-top: 3px;
+    display: none;
+  }
+  .formcontrol,
+  input[type='text'] {
+    width: 100%;
+    padding: 15px;
+    background-color: #606067;
+    margin: 8px 0;
+    border: none;
+    box-sizing: border-box;
+  }
+  .formcontrol::placeholder {
+    font-family: 'telegramaraw', sans-serif, Verdana;
+    font-size: 13px;
+    color: #ffffff;
+  }
+  .submitbtn,
+  input[type='submit'] {
+    float: right;
+    color: #ffffff;
+    background-color: #606067;
+    padding: 10px 15px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    font-family: 'telegramarender', sans-serif, Verdana;
+    font-size: 16px;
+  }
+  .submitbtn:hover {
+    background-color: #000000;
+    font-family: 'telegramarender', sans-serif, Verdana;
+    font-size: 16px;
+  }
+}

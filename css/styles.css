@@ -1,0 +1,413 @@
+@font-face {
+  font-family: 'telegramaraw';
+  src: url('../fonts/telegrama_raw-webfont.woff2') format('woff2'),
+    url('../fonts/telegrama_raw-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'telegramaraw_osn';
+  src: url('../fonts/telegrama_raw_osn-webfont.woff2') format('woff2'),
+    url('../fonts/telegrama_raw_osn-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'telegramarender';
+  src: url('../fonts/telegrama_render-webfont.woff2') format('woff2'),
+    url('../fonts/telegrama_render-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'telegramarender_osn';
+  src: url('../fonts/telegrama_render_osn-webfont.woff2') format('woff2'),
+    url('../fonts/telegrama_render_osn-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'nebulosa_stencil';
+  src: url('../fonts/fontspring-demo-nebulosa_display_stencil-webfont.woff2')
+      format('woff2'),
+    url('../fonts/fontspring-demo-nebulosa_display_stencil-webfont.woff')
+      format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+/* ------------------------------------------------------------------------------ */
+@media only screen and (min-width: 769px) {
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0 auto;
+    font-family: 'source_sans_prolight', 'HelveticaNeue-Light',
+      'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial,
+      'Lucida Grande', sans-serif;
+    line-height: 1.618;
+    text-rendering: optimizeLegibility;
+    font-weight: 400;
+  }
+
+  h1,
+  h4,
+  h5,
+  h6 {
+    color: #000000;
+  }
+  p {
+    font-size: 14px;
+  }
+  h2 {
+    text-align: center;
+    font-family: 'telegramarender', Arial, Helvetica, sans-serif;
+    color: #606067;
+  }
+  h3 {
+    text-align: center;
+    font-family: 'telegramarender', Arial, Helvetica, sans-serif;
+    color: rgb(141, 78, 73);
+  }
+  h1 {
+    padding-top: 30px;
+    border-top: rgb(141, 78, 73) solid;
+    text-align: center;
+    font-size: 30px;
+    line-height: 1.214;
+    letter-spacing: -1px;
+    font-family: 'telegramarender', Arial, sans-serif;
+  }
+
+  #logo {
+    display: block;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: url(../images/logo-mars-2.jpg) no-repeat;
+    width: 100%;
+    height: 75px;
+    padding-left: 100%;
+    z-index: 999;
+    -webkit-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.6);
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.6);
+  }
+
+  #header {
+    margin-bottom: 2.235801032em;
+    padding-bottom: 0;
+    background-position: center center;
+    position: relative;
+    display: block;
+  }
+  #mobil {
+    display: none;
+  }
+  .side-column {
+    max-width: 66.4989378333em;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 2.617924em;
+    box-sizing: content-box;
+  }
+  .site-nav {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #header .site-nav {
+    width: 73.9130434783%;
+    clear: both;
+  }
+  .menu-nav {
+    display: block;
+  }
+  .site-nav ul {
+    list-style: none;
+    padding-left: 0;
+    display: block;
+    text-align: center;
+  }
+  .site-nav .menu {
+    clear: both;
+  }
+
+  .site-nav ul li {
+    position: relative;
+    display: inline-block;
+    margin-bottom: -200px;
+    padding: 1.618em 0.5em;
+  }
+  .site-nav ul li a {
+    display: block;
+  }
+  .menu-button {
+    color: #494949;
+    text-decoration: none;
+    background-color: transparent;
+    font-family: 'nebulosa_stencil', Arial, Helvetica, sans-serif;
+  }
+  .menu-button:hover {
+    color: rgb(141, 78, 73);
+  }
+
+  #footer {
+    margin-top: 30px;
+    display: block;
+    clear: both;
+    width: 100%;
+    background-position: center center;
+  }
+  span {
+    font-size: 12px;
+    font-family: 'telegramarender', Arial, Helvetica, sans-serif;
+  }
+  .site-footer {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('../images/footer.jpg');
+    color: #f0f0f0;
+
+    text-align: center;
+  }
+  .footer-info {
+    padding: 1.617924em 0;
+  }
+}
+/* ------------------------------------------------------------------------------ */
+@media only screen and (min-width: 320px) and (max-width: 451px) {
+  body {
+    margin: 0px;
+    padding: 0px;
+  }
+  h1,
+  h4,
+  h5,
+  h6 {
+    color: #000000;
+  }
+  p {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  h1 {
+    padding-top: 15px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 1.214;
+    letter-spacing: -1px;
+    font-family: 'telegramarender', Arial, sans-serif;
+  }
+  h2 {
+    text-align: center;
+    font-family: 'telegramarender', Arial, Helvetica, sans-serif;
+    color: #606067;
+  }
+  h3 {
+    text-align: center;
+    font-family: 'telegramarender', Arial, Helvetica, sans-serif;
+    color: rgb(141, 78, 73);
+  }
+  #logo {
+    display: none;
+  }
+  #desktop {
+    display: none;
+  }
+
+  .mobil-nav {
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.9);
+    position: relative;
+  }
+
+  .mobil-nav #mobil-menu {
+    display: none;
+  }
+  #mobil {
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    -webkit-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.6);
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.6);
+  }
+  .mobil-nav a {
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 15px;
+    text-align: center;
+    display: block;
+  }
+  .mobil-button {
+    font-family: 'nebulosa_stencil', Arial, Helvetica, sans-serif;
+  }
+
+  .mobil-nav a.nav-icon {
+    display: block;
+    position: absolute;
+    right: 0px;
+    top: -10px;
+    font-size: 30px;
+  }
+  .contact-text {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .mobil-nav a:hover {
+    color: rgb(141, 78, 73);
+  }
+
+  .mobil-logo {
+    background: url('../images/mobil-rocket-logo.jpg');
+    background-size: 100% 100%;
+    width: 100%;
+    height: 20px;
+  }
+  #padding-top {
+    padding-top: 60px;
+  }
+
+  #footer {
+    margin-top: 30px;
+    display: block;
+    clear: both;
+    width: 100%;
+    background-position: center center;
+  }
+  span {
+    font-size: 12px;
+    font-family: 'telegramarender', Arial, Helvetica, sans-serif;
+  }
+  .site-footer {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('../images/footer.jpg');
+    color: #f0f0f0;
+
+    text-align: center;
+  }
+  .footer-info {
+    padding: 1.617924em 0;
+  }
+}
+/* ------------------------------------------------------------------------------ */
+@media only screen and (min-width: 452px) and (max-width: 768px) {
+  body {
+    margin: 0px;
+    padding: 0px;
+  }
+  h1,
+  h4,
+  h5,
+  h6 {
+    color: #000000;
+  }
+  p {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  h1 {
+    padding-top: 15px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 1.214;
+    letter-spacing: -1px;
+    font-family: 'telegramarender', Arial, sans-serif;
+  }
+  h2 {
+    text-align: center;
+    font-family: 'telegramarender', Arial, Helvetica, sans-serif;
+    color: #606067;
+  }
+  h3 {
+    text-align: center;
+    font-family: 'telegramarender', Arial, Helvetica, sans-serif;
+    color: rgb(141, 78, 73);
+  }
+  #logo {
+    display: none;
+  }
+  #desktop {
+    display: none;
+  }
+
+  .mobil-nav {
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.9);
+    position: relative;
+  }
+
+  .mobil-nav #mobil-menu {
+    display: none;
+  }
+  #mobil {
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    z-index: 999;
+    -webkit-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.6);
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.6);
+  }
+  .mobil-nav a {
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 15px;
+    text-align: center;
+    display: block;
+  }
+  .mobil-button {
+    font-family: 'nebulosa_stencil', Arial, Helvetica, sans-serif;
+  }
+
+  .mobil-nav a.nav-icon {
+    display: block;
+    position: absolute;
+    right: 0px;
+    top: -10px;
+    font-size: 30px;
+  }
+  .contact-text {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .mobil-nav a:hover {
+    color: rgb(226, 75, 21);
+  }
+
+  .mobil-logo {
+    background: url('../images/logo-mars-tab.jpg');
+    background-size: 100% 100%;
+    width: 100%;
+    height: 20px;
+  }
+  #padding-top {
+    padding-top: 60px;
+  }
+
+  #footer {
+    margin-top: 30px;
+    display: block;
+    clear: both;
+    width: 100%;
+    background-position: center center;
+  }
+  span {
+    font-size: 12px;
+    font-family: 'telegramarender', Arial, Helvetica, sans-serif;
+  }
+  .site-footer {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('../images/footer.jpg');
+    color: #f0f0f0;
+
+    text-align: center;
+  }
+  .footer-info {
+    padding: 1.617924em 0;
+  }
+}
